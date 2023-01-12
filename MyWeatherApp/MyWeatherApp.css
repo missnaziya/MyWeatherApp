@@ -1,0 +1,98 @@
+
+
+*{
+}
+
+#main{
+     background: linear-gradient(to right , rgb(199, 173, 117) , rgb(89, 147, 194)); 
+    /* background: linear-gradient(to right , rgb(116, 193, 255) , rgb(8, 13, 20));  */
+   
+    height: 620px;
+    width: 100%;
+}
+
+
+
+
+#container{
+    /* background: linear-gradient(to right , rgb(238, 94, 50) , rgb(245, 165, 90)); */
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 50px;
+    color: black;
+}
+img{
+    height: 100px;
+    width: 100px;
+    border-radius: 60px;
+}
+input{
+    height: 50px;
+    width: 350px;
+    margin:10px 80px;
+     padding-left: 20px;
+    /* margin-left: 20px;
+    margin-top: 80px; */
+    border-radius: 20px;
+    font-size: 20px;
+}
+#blank{
+    width: 130px;
+}
+
+#btn{
+    height: 40px;
+    width: 350px;
+    margin:15px 80px;
+    border-radius: 20px;
+    background: rgb(6, 165, 6);
+    font-size: 20px;
+    color: white;
+    /* padding: 10px; */
+
+
+}
+#show{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+#display{
+    /* margin-left: 20px; */
+    border: 2px solid black;
+    width: 345px;
+    height: 155px;
+    font-size: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* margin: 0p 600px; */
+    padding-top: 60px;
+    padding-bottom: 10px;
+    color: black;
+    background-color: antiquewhite;
+    border-radius: 30px;
+    box-shadow: 5px 8px 8px black;
+}
+/* 
+/* #background{
+    /* border: 2px solid black;
+    width: 350px;
+    height: 225px;
+    padding: 10px;
+    padding-right: 10px;
+    border-radius: 40px;
+    background-color: rgb(74, 85, 185); */
+/* 
+     opacity: 0.8;
+    background: url(https://wallpapercave.com/wp/Z4CD0Ic.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+} 
+*/
